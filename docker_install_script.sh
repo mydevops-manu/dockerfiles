@@ -52,3 +52,4 @@ CHECK $? "Installed docker client"
 systemctl start docker
 CHECK $? "docker serviced started"
 
+echo "docker is installed and running..."
